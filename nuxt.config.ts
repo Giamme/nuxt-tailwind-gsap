@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/style/index.scss'],
+  modules: ['@hypernym/nuxt-gsap'],
   postcss: {
     plugins: {
       tailwindcss: {},
